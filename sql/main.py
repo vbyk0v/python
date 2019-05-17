@@ -1,3 +1,3 @@
 import sql.sql_helper
 
-param = []
+connect_param = []
