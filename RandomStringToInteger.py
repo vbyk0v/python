@@ -1,6 +1,6 @@
 import re
 
-str = 'temperature                         : 24 C'
+str = 'temp:# 42abc'
 
 
 def rs(string_to_parse, one_number=True):
