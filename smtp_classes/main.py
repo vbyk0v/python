@@ -16,7 +16,7 @@ def generate_emails_to_txt(number):
 
 if __name__ == "__main__":
     generate_emails_to_txt(number = 20) # генерация почтовых ящиков
-    check = classes.EmailPrepare(txt='email.txt') # "типа разделение на потоки" на ру и ком зоны
+    check = smtp_classes.classes.EmailPrepare(txt='email.txt') # "типа разделение на потоки" на ру и ком зоны
     check_ru, check_com = check.email_for_check() # формируем\фильтруем сгенерированны ящика на ру и ком зоны
     print('check_ru = ', check_ru)
     print('check_com =', check_com)
