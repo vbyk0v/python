@@ -1,10 +1,11 @@
 import subprocess
 import os
 
+
 class RunCommand:
 
     def exec(self, command, output):
-        result = subprocess.run(command,
+        result = subprocess.call(command,
                                 shell=True,
                                 stdout=subprocess.PIPE)
         result = result.stdout

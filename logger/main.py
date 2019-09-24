@@ -1,5 +1,6 @@
 import datetime
 
+
 class Logger:
 
     INFO = 'INFO'
@@ -18,6 +19,7 @@ class Logger:
         with open(self.filename, 'a') as file:
             file.write('%s\n' % string)
         print(string)
+
 
 if __name__ == '__main__':
     logger = Logger()

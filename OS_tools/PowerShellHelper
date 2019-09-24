@@ -1,0 +1,11 @@
+import subprocess
+
+
+def run(command):
+    process=subprocess.Popen(["powershell",str(command)],stdout=subprocess.PIPE)
+    result=process.communicate()[0]
+    print (result.decode("866"))
+
+
+
+run(command = 'Invoke-Command -ComputerName 172.18.106.160 -ScriptBlock {Get-Culture}')

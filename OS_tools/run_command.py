@@ -13,6 +13,7 @@ def check_python():
         print('Python not installed')
         return False
 
+
 def check_python_module(module = ''):
     result = r.exec(command='pip3 list', output=True)
     if str(module) in result:
@@ -21,6 +22,7 @@ def check_python_module(module = ''):
     else:
         print(module + ' not installed')
         return False
+
 
 def check_python_missing_modules(modules_list):
     result = r.exec(command='pip3 list', output=True)
@@ -48,6 +50,7 @@ def install_missing_modules():
 
 
 modules = ['pip', 'six', 'rsa']
+
 
 install_missing_modules()
 
