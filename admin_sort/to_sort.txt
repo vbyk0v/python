@@ -1,0 +1,1 @@
+WIN-QTHENOOT\Administrador;WIN-QTHENOOT\suporte; WIN-JQMPVQMA\administrador;WIN-JQMPVQMA\informix; WIN-MSHICLTI\Administrador;WIN-MSHICLTI\Everson Vian do amaral;WIN-MSHICLTI\informix; WIN-NEMEALTN\Administrador;WIN-NEMEALTN\informix; SRVDIBRM\Administrador;SRVDIBRM\done;SRVDIBRM\Alessandro;SRVDIBRM\Leticia;
